@@ -1,0 +1,28 @@
+/* src/components/router/styles.css */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-bottom: 20px; /* Espaçamento abaixo dos botões */
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 10px; /* Espaçamento horizontal entre os botões */
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #121212;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-container button:hover {
+    background-color: #21a1f1; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.button-container button:focus {
+    outline: none; /* Remove o contorno padrão do botão ao focar */
+    box-shadow: 0 0 0 3px rgba(33, 161, 241, 0.5); /* Adiciona uma sombra ao focar */
+}
